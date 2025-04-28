@@ -299,8 +299,8 @@ ul {
 }
 
 /* Home Section */
-.home-section {
-    display: flex;
+.home-section.active {
+    display: flex !important;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -607,6 +607,11 @@ ul {
     font-size: 1.5rem;
     color: var(--primary-color);
     margin-right: 1.5rem;
+}
+
+.icon {
+    margin-right: 1rem;
+    width: 1.5rem;
 }
 
 .form-group {
